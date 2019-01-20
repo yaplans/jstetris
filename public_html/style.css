@@ -1,0 +1,49 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 19 янв. 2019 г., 12:00:32
+    Author     : us
+*/
+
+.m_inline {
+    display: inline-block;
+    /*Чтобы по центру выровнять*/
+    height: 25px;
+}
+
+.m_block {
+    display: inline-block;
+}
+
+.m_set.table {
+    background: #999;
+    border: 25px solid #333;
+    border-collapse: collapse; /* */
+}
+p{
+    /*height: 25px;*/
+    margin: 0px;
+}
+
+/*http://qaru.site/questions/2353672/draw-chessboard-with-frame-with-pure-html-and-css*/
+
+/*table.chessboard {*/
+.m_chess {
+    margin: 20px auto;
+    background: #999;
+    border: 25px solid #333;
+    border-collapse: collapse; /* */
+}
+/*td.chessboard {*/
+td {
+    /*width: 70px; height: 70px;*/
+    width: 25px; height: 25px;
+    border: 2px solid #333; /* */
+}
+/*tr.chessboard:nth-child(odd) td.chessboard:nth-child(even),
+tr.chessboard:nth-child(even) td.chessboard:nth-child(odd) {
+    background: white;
+}*/
